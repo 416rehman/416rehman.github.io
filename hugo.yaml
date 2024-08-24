@@ -10,6 +10,7 @@ params:
   ShowReadingTime: true
   ShowCodeCopyButtons: true
   comments: true
+  ShowFullTextinRSS: true
   socialIcons:
     - name: github
       url: https://github.com/416rehman
@@ -17,6 +18,8 @@ params:
       url: https://linkedin.com/in/rehmanahmadzai
     - name: email
       url: mailto:blog@ahmadz.ai
+    - name: "rss"
+      url: "/index.xml"
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
