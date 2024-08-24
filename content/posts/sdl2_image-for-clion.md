@@ -1,6 +1,6 @@
 +++
 title = 'Setup SDL2_image for CLion using CMake'
-date = 2021-12-1
+date = 2021-12-01
 draft = false
 tags = ["cpp", "sdl2_image", "clion", "cmake"]
 +++
