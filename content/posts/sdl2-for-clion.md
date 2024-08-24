@@ -19,7 +19,7 @@ Create a cmake/modules directory in your project root.
 
 Put the following cmake file in the newly created cmake/modules directory
 
-{{< gist 416rehman 50a7482715eac222e230d1e64dd9a89b >}}
+{{< gist 416rehman 50a7482715eac222e230d1e64dd9a89b gistfile1.txt >}}
 
 Download the SDL2 development library for mingw from [https://github.com/libsdl-org/SDL/releases/tag/release-2.26.0 (](https://github.com/libsdl-org/SDL/releases/tag/release-2.26.0)SDL2-devel-2.26.0-mingw.zip). After downloading, unzip the folder in your project root, the directory should look like this after unzipping it.
 
