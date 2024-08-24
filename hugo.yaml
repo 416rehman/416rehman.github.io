@@ -43,7 +43,8 @@ languages:
         title: Hello, I'm Rehman!
         
 permalinks: 
-  posts: "/:title"
+  #filename
+  posts: "/:filename"
         
 outputs:
   home:
