@@ -1,0 +1,61 @@
+baseURL: https://blog.ahmadz.ai/
+theme: PaperMod
+
+# Common Parameters
+defaultContentLanguage: en
+params:
+  env: production
+  contentDir: content/
+  ShowToc: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowCodeCopyButtons: true
+  comments: true
+  profileMode:
+    enabled: true
+    title: "Hayaturehman Ahmadzai" # optional default will be site title
+    subtitle: "or Rehman for short :)"
+    buttons:
+      - name: Archive
+        url: "/archive"
+      - name: Tags
+        url: "/tags"
+  socialIcons:
+    - name: github
+      url: https://github.com/416rehman
+    - name: linkedin
+      url: https://linkedin.com/in/rehmanahmadzai
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: [ "title", "permalink", "summary", "content" ]
+  editPost:
+    URL: "https://github.com/416rehman/416rehman.github.io/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true
+
+
+# Language-Specific Parameters
+languages:
+  en:
+    title: Rehman Ahmadzai
+    weight: 1
+    languageDirection: ltr
+    languageName: English
+    languageCode: en-us
+    params:
+      homeInfoParams:
+        title: Hello, I'm Rehman!
+        content: I'm a cloud and open-source software engineer hailing from Alexandria, Egypt.
+        
+        
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
