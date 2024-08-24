@@ -28,6 +28,8 @@ params:
     URL: "https://github.com/416rehman/416rehman.github.io/edit/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true
+  assets:
+    disableFingerprinting: true
 
 
 # Language-Specific Parameters
@@ -41,6 +43,10 @@ languages:
     params:
       homeInfoParams:
         title: Hello, I'm Rehman!
+        
+permalinks: 
+  #filename
+  posts: "/:filename"
         
 outputs:
   home:
