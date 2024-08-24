@@ -8,18 +8,8 @@ params:
   contentDir: content/
   ShowToc: true
   ShowReadingTime: true
-  ShowShareButtons: true
   ShowCodeCopyButtons: true
   comments: true
-  profileMode:
-    enabled: true
-    title: "Hayaturehman Ahmadzai" # optional default will be site title
-    subtitle: "or Rehman for short :)"
-    buttons:
-      - name: Archive
-        url: "/archive"
-      - name: Tags
-        url: "/tags"
   socialIcons:
     - name: github
       url: https://github.com/416rehman
@@ -35,7 +25,7 @@ params:
     # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: [ "title", "permalink", "summary", "content" ]
   editPost:
-    URL: "https://github.com/416rehman/416rehman.github.io/content"
+    URL: "https://github.com/416rehman/416rehman.github.io/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true
 
@@ -51,8 +41,6 @@ languages:
     params:
       homeInfoParams:
         title: Hello, I'm Rehman!
-        content: I'm a cloud and open-source software engineer hailing from Alexandria, Egypt.
-        
         
 outputs:
   home:
