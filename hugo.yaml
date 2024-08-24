@@ -25,7 +25,7 @@ params:
     # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: [ "title", "permalink", "summary", "content" ]
   editPost:
-    URL: "https://github.com/416rehman/416rehman.github.io/tree/main/content"
+    URL: "https://github.com/416rehman/416rehman.github.io/edit/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true
 
