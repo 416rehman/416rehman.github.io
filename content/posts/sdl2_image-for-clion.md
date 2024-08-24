@@ -4,6 +4,7 @@ date = 2021-12-1T05:34:34-03:00
 draft = false
 tags = ["cpp", "sdl2_image", "clion", "cmake"]
 +++
+
 ## Setup SDL2_image for CLION using CMAKE
 
 Guide for setting up SDL2_image for CLION using CMAKE
