@@ -42,6 +42,9 @@ languages:
       homeInfoParams:
         title: Hello, I'm Rehman!
         
+permalinks: 
+  posts: "/:title"
+        
 outputs:
   home:
     - HTML
