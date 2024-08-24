@@ -44,7 +44,7 @@ languages:
         
 permalinks: 
   #filename
-  posts: "/:filename"
+  posts: "/:title"
         
 outputs:
   home:
